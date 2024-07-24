@@ -975,4 +975,7 @@
     <!-- Whether to disable Smart Pixels on UDFPS -->
     <bool name="config_disableSmartPixelsOnUDFPS">true</bool>
 
+    <!-- Disables pocket mode lock -->
+    <bool name="config_pocketModeSupported">false</bool>
+
 </resources>
