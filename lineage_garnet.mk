@@ -8,19 +8,25 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Crdroid stuff.
+# Inherit some common MistOS stuff.
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
 
-# CrDroid stuff
+# Build stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS := true
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_EXCLUDES_AUDIOFX := true
+WITH_GMS := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+MISTOS_MAINTAINER=JYR_RC
+MIST_BUILD_TYPE := OFFICIAL
+TARGET_ENABLE_BLUR := true
 
 PRODUCT_NAME := lineage_garnet
 PRODUCT_DEVICE := garnet
