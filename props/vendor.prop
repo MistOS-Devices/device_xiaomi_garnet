@@ -75,6 +75,10 @@ ro.camera.enableCamera1MaxZsl=1
 ro.hardware.camera=xiaomi
 persist.vendor.camera.logLevel=0
 persist.vendor.camera.sensor=0
+persist.vendor.camera.eis.enable=1
+persist.vendor.camera.is_type=4
+persist.vendor.camera.aux.packagelist=*
+persist.camera.aux.packagelist=*
 
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
