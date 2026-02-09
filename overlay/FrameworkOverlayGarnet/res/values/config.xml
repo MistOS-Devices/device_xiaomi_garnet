@@ -882,4 +882,7 @@
 
      <!-- Lower touch slop = faster paging gestures -->
     <dimen name="config_pagingTouchSlop">12dp</dimen>
+
+     <!-- Enable motion prediction for ultra-low latency input -->
+    <bool name="config_enableMotionPrediction">true</bool>
 </resources>
