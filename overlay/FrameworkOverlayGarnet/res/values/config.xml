@@ -867,4 +867,7 @@
 
      <!-- Turbulence effect -->
     <bool name="config_mediaControlsTurbulenceByDefault">false</bool>
+
+     <!-- Lower touch slop = faster gestures & quicker scroll start -->
+    <dimen name="config_viewTouchSlop">6dp</dimen>
 </resources>
