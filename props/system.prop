@@ -13,3 +13,6 @@ persist.vendor.data.mode=concurrent
 ril.subscription.types=NV,RUIM
 ro.telephony.default_network=33,33
 telephony.lteOnCdmaDevice=1
+
+# Blur
+ro.sf.blurs_are_expensive=1
