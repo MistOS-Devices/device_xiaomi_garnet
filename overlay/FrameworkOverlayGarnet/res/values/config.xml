@@ -868,6 +868,9 @@
      <!-- Turbulence effect -->
     <bool name="config_mediaControlsTurbulenceByDefault">false</bool>
 
+     <!-- Maximum velocity to initiate a fling, as measured in dips per second. -->
+    <dimen name="config_viewMaxFlingVelocity">12000dp</dimen>
+
      <!-- Lower touch slop = faster gestures & quicker scroll start -->
     <dimen name="config_viewTouchSlop">6dp</dimen>
 
