@@ -84,6 +84,9 @@ $(foreach sku, CN GL JP, \
 
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/framework_manifest.xml
 
+# Optimize HWUI for performance
+HWUI_COMPILE_FOR_PERF := true
+
 # Kernel
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_RAMDISK_USE_LZ4 := true
