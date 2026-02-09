@@ -243,6 +243,9 @@ WIFI_FEATURE_HOSTAPD_11AX := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+# Netflix
+vendor.netflix.bsp_rev=Q6450-36256-1
+
 # Vendor
 include vendor/xiaomi/garnet/BoardConfigVendor.mk
 
