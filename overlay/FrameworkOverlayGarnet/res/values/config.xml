@@ -868,21 +868,9 @@
      <!-- Turbulence effect -->
     <bool name="config_mediaControlsTurbulenceByDefault">false</bool>
 
-     <!-- Optimize scrolling friction for improved kinetic persistence -->
-    <item name="config_scrollFriction" format="float" type="dimen">0.008</item>
-
      <!-- Minimum velocity required to initiate a fling, in dips per second. -->
     <dimen name="config_viewMinFlingVelocity">53dp</dimen>
 
      <!-- Maximum velocity to initiate a fling, as measured in dips per second. -->
     <dimen name="config_viewMaxFlingVelocity">12000dp</dimen>
-
-     <!-- Lower touch slop = faster gestures & quicker scroll start -->
-    <dimen name="config_viewTouchSlop">6dp</dimen>
-
-     <!-- Lower touch slop = faster paging gestures -->
-    <dimen name="config_pagingTouchSlop">12dp</dimen>
-
-     <!-- Enable motion prediction for ultra-low latency input -->
-    <bool name="config_enableMotionPrediction">true</bool>
 </resources>
