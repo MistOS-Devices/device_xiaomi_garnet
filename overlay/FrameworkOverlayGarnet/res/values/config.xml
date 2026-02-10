@@ -878,6 +878,9 @@
      <!-- Turbulence effect -->
     <bool name="config_mediaControlsTurbulenceByDefault">false</bool>
 
+    <!-- Whether to play turbulence noise after clicking the play button -->
+    <bool name="config_turbulenceNoise">false</bool>
+
      <!-- Minimum velocity required to initiate a fling, in dips per second. -->
     <dimen name="config_viewMinFlingVelocity">53dp</dimen>
 
