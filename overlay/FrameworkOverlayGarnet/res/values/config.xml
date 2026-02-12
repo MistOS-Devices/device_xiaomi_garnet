@@ -889,4 +889,9 @@
 
     <!-- Whether to play turbulence noise after clicking the play button -->
     <bool name="config_turbulenceNoise">false</bool>
+
+     <string-array name="configs_base">
+     <!-- ART heap compaction for cached apps -->
+     <item>activity_manager/use_compaction=true</item>
+    </string-array>
 </resources>
