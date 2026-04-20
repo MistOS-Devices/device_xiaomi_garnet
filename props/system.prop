@@ -17,3 +17,13 @@ telephony.lteOnCdmaDevice=1
 
 # Blur
 ro.sf.blurs_are_expensive=1
+
+# MistOS
+ro.mist.display=1080 x 2400, 120 hz
+ro.mist.battery=5100mah
+ro.mist.soc=Snapdragon® 7+ Gen 2
+ro.mist.camera=200MP + 8MP + 2MP
+ro.mist.front=16MP
+ro.mist.platform=SM7435-AB
+ro.mist.screen=6.67' QHD AMOLED
+ro.mist.device.name=Xiaomi Redmi Note 13 Pro 5G

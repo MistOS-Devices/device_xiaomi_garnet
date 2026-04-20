@@ -1,18 +1,50 @@
 [
   {
-    "repository": "android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi"
+    "remote"     : "github-non-los",
+    "repository" : "Garnet-Hubs/vendor_xiaomi_garnet",
+    "target_path": "vendor/xiaomi/garnet",
+    "branch"     : "16.2"
   },
   {
-    "repository": "android_kernel_xiaomi_sm7435",
-    "target_path": "kernel/xiaomi/sm7435"
+    "remote"     : "github-non-los",
+    "repository" : "Garnet-Hubs/kernel_xiaomi_sm7435",
+    "target_path": "kernel/xiaomi/sm7435",
+    "branch"     : "bp4a"
   },
   {
-    "repository": "android_kernel_xiaomi_sm7435-devicetrees",
-    "target_path": "kernel/xiaomi/sm7435-devicetrees"
+    "remote"     : "github-non-los",
+    "repository" : "Garnet-Hubs/kernel_xiaomi_sm7435-modules",
+    "target_path": "kernel/xiaomi/sm7435-modules",
+    "branch"     : "bp4a"
   },
   {
-    "repository": "android_kernel_xiaomi_sm7435-modules",
-    "target_path": "kernel/xiaomi/sm7435-modules"
+    "remote"     : "github-non-los",
+    "repository" : "Garnet-Hubs/kernel_xiaomi_sm7435-devicetrees",
+    "target_path": "kernel/xiaomi/sm7435-devicetrees",
+    "branch"     : "bp4a"
+  },
+  {
+    "remote"     : "github-non-los",
+    "repository" : "Garnet-Hubs/hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch"     : "lineage-23.2"
+  },
+  {
+    "remote"     : "github-non-los",
+    "repository" : "Garnet-Hubs/device_xiaomi_miuicamera-garnet",
+    "target_path": "device/xiaomi/miuicamera-garnet",
+    "branch"     : "bp4a"
+  },
+  {
+    "remote"     : "github-non-los",
+    "repository" : "Garnet-Hubs/vendor_xiaomi_miuicamera-garnet",
+    "target_path": "vendor/xiaomi/miuicamera-garnet",
+    "branch"     : "bp4a"
+  },
+  {
+    "remote"     : "github-non-los",
+    "repository" : "Garnet-Hubs/hardware_dolby",
+    "target_path": "hardware/dolby",
+    "branch"     : "16"
   }
 ]

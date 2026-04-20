@@ -15,6 +15,19 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
 
+# MistoS stuff
+MISTOS_MAINTAINER := franlop77
+WITH_GMS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_NOW_PLAYING := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_FACE_UNLOCK := true
+WITH_BCR := true
+
 PRODUCT_NAME := lineage_garnet
 PRODUCT_DEVICE := garnet
 PRODUCT_MANUFACTURER := Xiaomi
