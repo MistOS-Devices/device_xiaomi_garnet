@@ -18,7 +18,6 @@ $(call inherit-product, device/xiaomi/garnet/device.mk)
 # MistoS stuff
 MISTOS_MAINTAINER := franlop77
 TARGET_ENABLE_BLUR := true
-WITH_GMS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_HAS_UDFPS := true
 EXTRA_UDFPS_ANIMATIONS := true
