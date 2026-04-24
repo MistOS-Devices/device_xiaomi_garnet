@@ -45,6 +45,6 @@
     "repository" : "Garnet-Hubs/hardware_dolby",
     "target_path": "hardware/dolby",
     "remote"     : "github-non-los",
-    "branch"     : "bp4a"
+    "branch"     : "16"
   }
 ]
